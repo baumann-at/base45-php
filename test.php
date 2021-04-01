@@ -33,7 +33,7 @@ $res = base45_decode('QED8WEX0');
 echo("$res\r\n"); // ietf!
 
 
-$res = base45_decode('x');
-echo("$res\r\n"); // raises exception
+$res = base45_decode('x'); // raises exception
+echo("$res\r\n"); 
 
 ?>
